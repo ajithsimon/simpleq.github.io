@@ -503,7 +503,7 @@ TESTIMONIAL
     top: 62%;
 }
 .testimonial-item ul li blockquote::after {
-    content: 'â€?';
+    content: 'ï¿½?';
     right: 30px;
 }
 /***********************************
@@ -672,6 +672,22 @@ contact
 #footer a{
     color: #be9e21;
     font-weight: 400;
+}
+.social-login li{
+    padding-left: 7px;
+    padding-right: 7px;
+}
+.social-login li a:hover{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    transition: 0.4s ease all;
+}
+.social-login li a{
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    color: white !important;
+    display: block;
 }
 /***********************************
 ************************************
