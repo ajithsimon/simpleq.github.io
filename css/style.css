@@ -99,8 +99,14 @@ HEADER
     min-height: 550px;
     position: relative;
 }
-.job-opening{
-    background: url('../img/job-opening.jpg') no-repeat fixed;
+.domestic-jobs{
+    background: url('../img/domestic-jobs.jpg') no-repeat fixed top center;
+    background-size: cover;
+    min-height: 550px;
+    position: relative;
+}
+.abroad-jobs{
+    background: url('../img/abroad-jobs.jpg') no-repeat fixed top center;
     background-size: cover;
     min-height: 550px;
     position: relative;
