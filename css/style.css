@@ -1,14 +1,11 @@
 body {
     line-height: 1.4;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lato', sans-serif;
     color: #67696c;
     font-size: 16px;
     font-weight: 300;
     letter-spacing: 0.5px;
     overflow-x: hidden;
-}
-ol, ul {
-    list-style: none;
 }
 blockquote, q {
     quotes: none;
@@ -23,7 +20,7 @@ table {
     border-spacing: 0;
 }
 h1, h2, h3, h4, h5, h6{
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 600;
 }
 .section-padding
@@ -99,6 +96,12 @@ HEADER
     height: 100vh;
     position: relative;
 }
+.job-openings{
+    background: url('../img/job-opening.jpg') no-repeat fixed 0 -75px;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
 .domestic-jobs{
     background: url('../img/domestic-jobs.jpg') no-repeat fixed 0 -75px;
     background-size: cover;
@@ -129,7 +132,10 @@ HEADER
 {
     color: #002F2F;
 }
-
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover{
+    background: transparent;
+    color: #be9e21;
+}
 .top-nav-collapse {
     padding: 0; 
     background: rgba(64,75,97, 0.9);
@@ -141,7 +147,7 @@ HEADER
 }
 .navbar-default .navbar-brand {
     color: #fff;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 700;
 }
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus
