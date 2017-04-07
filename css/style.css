@@ -84,37 +84,36 @@ HEADER
 .header{
     background: url('../img/home.jpg') no-repeat fixed;
     background-size: cover;
-    min-height: 550px;
+    height: 100vh;
     position: relative;
 }
 .about{
     background: url('../img/about.jpg') no-repeat fixed;
     background-size: cover;
-    min-height: 550px;
+    height: 100vh;
     position: relative;
 }
 .contact{
     background: url('../img/contact.jpg') no-repeat fixed;
     background-size: cover;
-    min-height: 550px;
+    height: 100vh;
     position: relative;
 }
 .domestic-jobs{
-    background: url('../img/domestic-jobs.jpg') no-repeat fixed top center;
+    background: url('../img/domestic-jobs.jpg') no-repeat fixed 0 -75px;
     background-size: cover;
-    min-height: 550px;
+    height: 100vh;
     position: relative;
 }
 .abroad-jobs{
-    background: url('../img/abroad-jobs.jpg') no-repeat fixed top center;
+    background: url('../img/abroad-jobs.jpg') no-repeat fixed center center;
     background-size: cover;
-    min-height: 550px;
+    height: 100vh;
     position: relative;
 }
-.bg-color
-{
+.bg-color{
     background-color: rgba(0, 0, 0, 0.5);
-    min-height: 550px;
+    height: 100vh;
 }
 #main-header
 {
@@ -181,7 +180,6 @@ HEADER
 }
 .banner-info
 {
-    padding-top: 140px;
     color: #fff;
 }
 .bnr-title, .bnr-sub-title
@@ -731,6 +729,28 @@ cta
     display: inline-block;
     transition: all 0.5s ease-in 0s;
 }
+/* Vertical Center Content */
+.vertical-center-wrapper {
+    height: 100%;
+}
+.vertical-center-table {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+.vertical-top-content {
+    display: table-cell;
+    vertical-align: top;
+}
+.vertical-center-content {
+    display: table-cell;
+    vertical-align: middle;
+}
+.vertical-bottom-content {
+    display: table-cell;
+    vertical-align: bottom;
+}
+/* -- */
 /***********************************
 ************************************
 Responsive media queries
